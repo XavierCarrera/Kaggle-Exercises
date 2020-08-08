@@ -49,3 +49,24 @@ def to_smash(total_candies, friends=3):
 
 # Check your answer
 q3.check()
+
+## 4
+
+# It may not be fun, but reading and understanding error messages will be an important part of your Python career.
+
+# Each code cell below contains some commented-out buggy code. For each cell...
+
+# Read the code and predict what you think will happen when it's run.
+# Then uncomment the code and run it to see what happens. (Tip: In the kernel editor, you can highlight several lines and press ctrl+/ to toggle commenting.)
+# Fix the code (so that it accomplishes its intended purpose without throwing an exception)
+
+x = -10
+y = 5
+# # Which of the two variables above has the smallest absolute value?
+smallest_abs = min(x, y)
+
+def f(x):
+    y = abs(x)
+    return y
+
+print(f(5))
