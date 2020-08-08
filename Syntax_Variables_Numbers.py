@@ -4,6 +4,8 @@ from learntools.python.ex1 import *
 pi = 3.14159 # approximate
 diameter = 3
 
+## 1 
+
 # Create a variable called 'radius' equal to half the diameter
 ____
 
@@ -16,6 +18,8 @@ area = pi * (radius **2)
 
 # Check your answer
 q1.check()
+
+## 2
 
 ########### Setup code - don't touch this part ######################
 # If you're curious, these are examples of lists. We'll talk about 
@@ -39,3 +43,14 @@ b = c
 
 # Check your answer
 q2.check()
+
+## 3
+
+## Add parentheses to the following expression so that it evaluates to 1.
+
+(5 - 3) // 2
+
+## Add parentheses to the following expression so that it evaluates to 0
+
+8 - (3 * 2) - (1 + 1)
+
