@@ -25,4 +25,21 @@ def losing_team_captain(teams):
 # Check your answer
 q2.check()
 
+## 3
 
+def purple_shell(racers):
+    """Given a list of racers, set the first place racer (at the front of the list) to last
+    place and vice versa.
+    
+    >>> r = ["Mario", "Bowser", "Luigi"]
+    >>> purple_shell(r)
+    >>> r
+    ["Luigi", "Bowser", "Mario"]
+    """
+
+    x = racers[0]
+    racers[0] = racers[-1]
+    racers[-1] = x
+    
+# Check your answer
+q3.check()
