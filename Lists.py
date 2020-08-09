@@ -57,3 +57,19 @@ lengths = [len(a), len(b), len(c), len(d)]
 
 # Check your answer
 q4.check()
+
+## 5
+
+def fashionably_late(arrivals, name):
+    """Given an ordered list of arrivals to the party and a name, return whether the guest with that
+    name was fashionably late.
+    """
+    
+    n = arrivals.index(name)
+    print(n)
+    return n >= len(arrivals) / 2 and n != len(arrivals) - 1
+    
+    
+
+# Check your answer
+q5.check()
