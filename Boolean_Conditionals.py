@@ -107,3 +107,18 @@ q5.c.check()
 
 # 6
 
+# We’ve seen that calling bool() on an integer returns False if it’s equal to 0 and True otherwise. What happens if we call int() on a bool? Try it out in the notebook cell below.
+
+# Can you take advantage of this to write a succinct function that corresponds to the English sentence "does the customer want exactly one topping?"?
+
+def exactly_one_topping(ketchup, mustard, onion):
+    """Return whether the customer wants exactly one of the three available toppings
+    on their hot dog.
+    """
+    return (ketchup + mustard + onion) == 1 
+
+# Check your answer
+q6.check()
+
+
+
